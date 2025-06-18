@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Body, Injectable, UploadedFile } from '@nestjs/common';
 
 @Injectable()
 export class ResumeService {

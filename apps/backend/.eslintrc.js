@@ -7,6 +7,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
+    '../../.eslintrc.js'
   ],
   ignorePatterns: ['dist/', 'node_modules/'],
   rules: {
